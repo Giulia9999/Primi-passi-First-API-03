@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "0455370f-145d-4022-8358-a17264e565ac",
+		"name": "API_03",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26043911"
+	},
+	"item": [
+		{
+			"name": "GET_esercizio03",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/concatenation/strings?string1=ciao",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"concatenation",
+						"strings"
+					],
+					"query": [
+						{
+							"key": "string1",
+							"value": "ciao"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GET_esercizio03",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/concatenation/strings?string1=ciao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"concatenation",
+								"strings"
+							],
+							"query": [
+								{
+									"key": "string1",
+									"value": "ciao"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 12 Apr 2023 18:32:23 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "ciao"
+				}
+			]
+		},
+		{
+			"name": "GET_esercizio03 Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/concatenation/strings?string1=ciao&string2=hola",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"concatenation",
+						"strings"
+					],
+					"query": [
+						{
+							"key": "string1",
+							"value": "ciao"
+						},
+						{
+							"key": "string2",
+							"value": "hola"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GET_esercizio03 Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/concatenation/strings?string1=ciao&string2=hola",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"concatenation",
+								"strings"
+							],
+							"query": [
+								{
+									"key": "string1",
+									"value": "ciao"
+								},
+								{
+									"key": "string2",
+									"value": "hola"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "9"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 12 Apr 2023 18:28:31 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "ciao hola"
+				}
+			]
+		}
+	]
+}
